@@ -47,7 +47,7 @@ internal static class ParameterExtractor
                     ? string.Empty
                     : $"[{GetAliasAsAttribute(p)}]";
                 
-                return $"{generatedAliasAsAttribute} StreamPart {p.VariableName}";
+                return $"{generatedAliasAsAttribute}StreamPart {p.VariableName}";
             })
             .ToList();
 
